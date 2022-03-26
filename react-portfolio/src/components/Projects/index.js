@@ -31,21 +31,21 @@ export default function Projects() {
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        LibMaker 3000
+                        project name
             </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        A Mad Lib generator that takes user input and plugs it into a predefined story template where the completed mad libs are saved into a database.
+                        project describtion
             </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    <Link to="https://makeyourmadlib.herokuapp.com/" target="_blank" className="btn mr-2">
+                    <Link to="" target="_blank" className="btn mr-2">
                         <i class="fas fa-laptop-code"></i>
                     </Link>
                 </Button>
                 <Button size="small" color="primary">
-                    <Link to="https://github.com/mmeii/make-your-madlibs" target="_blank" className="btn">
+                    <Link to="" target="_blank" className="btn">
                         <i class="fab fa-github"></i>
                     </Link>
                 </Button>
