@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
             <a target="_blank" rel="noopener noreferrer" href="tel:905-341-2419">
                 <i class="fas fa-phone-volume"></i>
-            </a><div className="text-right">Copyright © Xingzhi Chang</div>
+            </a><p>Copyright © Xingzhi Chang</p>
         </footer>
     )
 }
