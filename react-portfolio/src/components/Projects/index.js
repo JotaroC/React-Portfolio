@@ -1,55 +1,180 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import './style.css';
 
-const useStyles = makeStyles({
-    root: {
-        maxWidth: 345,
-    },
-    media: {
-        height: 140,
-    },
-});
-
-export default function Projects() {
-    const classes = useStyles();
-
+const Projects = () => {
     return (
-        <Card className={classes.root}>
-            <CardActionArea>
-                <CardMedia
-                    className={classes.media}
-                    image={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`}
-                    title="Contemplative Reptile"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        project name
-            </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        project describtion
-            </Typography>
-                </CardContent>
-            </CardActionArea>
-            <CardActions>
-                <Button size="small" color="primary">
-                    <Link to="" target="_blank" className="btn mr-2">
-                        <i class="fas fa-laptop-code"></i>
-                    </Link>
-                </Button>
-                <Button size="small" color="primary">
-                    <Link to="" target="_blank" className="btn">
-                        <i class="fab fa-github"></i>
-                    </Link>
-                </Button>
-            </CardActions>
-        </Card>
-    );
+        <div className="container" id="portfolio">
+            <div className="row justify-description-center">
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
+                    <div className="card text-center h-100">
+                        <div className="imageBox">
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/libmaker-screenshot.png`} className="card-img-top border-bottom"
+                                alt="Screenshot of project" />
+                        </div>
+                        <div className="card-body mb-5 pl-0">
+                            <h3>project name</h3>
+                            <p className="card-text">
+                                project description
+                            </p>
+                            <p className="card-text">
+                                <small>
+                                    Features: JavaScript, Node, Express, Handlebars, MySQL,
+                                    Sequelize, Mobile responsive
+                                </small>
+                            </p>
+
+                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                    <i className="fas fa-laptop-code"></i></a>
+                                <a href="" target="_blank" className="btn" rel="noreferrer">
+                                    <i className="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
 }
+
+export default Projects;
