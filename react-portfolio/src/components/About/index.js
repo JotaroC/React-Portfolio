@@ -5,9 +5,7 @@ export const About = () => {
         <div className="about">
               <h2>Nice to meet you.</h2>
             <strong>
-                I am an enthusiastic fullstack web developer with a passion for creating web
-                applications and
-                maintaining enhanced user experiences built on JavaScript technologies.
+            I'm a full stack web developer with extensive experience in coding and Mathematics. Currently pursuing a Certificate in Full Stack Web Development from the University of Toronto, developing skills in HTML, CSS, and JavaScript and strengths in self-learning, creativity, and teamwork.  With each project, my aim is to best engage my audience for an impactful user experience. I applied aspects of API and agile development in a recent  group project . Passionate about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Excited to develop responsive websites. Positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging background in digital marketing and finance. 
             </strong>
 
             <h2 className="mt-5">Skills</h2>
