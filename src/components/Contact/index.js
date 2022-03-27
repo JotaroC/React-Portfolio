@@ -7,7 +7,7 @@ const Contact = () => {
             <h1>Let's Connect!</h1>
             <iframe
                 title="location"
-                src='https://maps.google.com/maps?q=1469%20albion%20ave&t=k&z=13&ie=UTF8&iwloc=&output=embed'
+                src='https://maps.google.com/maps?q=oakville&t=&z=13&ie=UTF8&iwloc=&output=embed'
                 frameBorder="0"
                 allowFullScreen=""
                 aria-hidden="false"
