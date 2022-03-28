@@ -13,7 +13,25 @@ const Contact = () => {
                 aria-hidden="false"
                 tabIndex="0"></iframe>
 
-            <div className="social">
+            <form className="was-validated mb-3">
+                <div className="form-group mb-2">
+                    <input type="text" className="form-control" id="nameFormControlInput" placeholder="please enter your name" required></input>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+
+                <div className="form-group mb-2">
+                    <input type="email" className="form-control" id="emailFormControlInput" placeholder="pleaser enter your Email" required></input>
+                    <div class="invalid-feedback">Please fill out this field and use a valid email.</div>
+                </div>
+
+                <div className="form-group mb-2">
+                    <textarea className="form-control" id="messageFormControlTextarea" rows="6" required></textarea>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <input type="submit" value="SUBMIT" />
+            </form>
+
+            {/* <div className="social">
                 <h4>LinkedIn</h4>
                 <p>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/xingzhi-chang/">
@@ -48,7 +66,7 @@ const Contact = () => {
                         905-341-2419
                     </a>
                 </p>
-            </div>
+            </div> */}
         </div>
     )
 }
